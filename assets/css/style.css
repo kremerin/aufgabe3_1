@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 600px;
+    margin: 2rem auto 0;
+    background-color: teal;
+    color: white;
+    padding: 1rem;
+}
+
+form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+fieldset {
+    border: 0;
+    margin-inline: 0;
+    padding-block: 0;
+    padding-inline: 0;
+    padding: 2rem 0;
+    background-color: #eee;
+}
+
+legend {
+    border: 0;
+    padding: 10px 0;
+    padding-inline: 0;
+    color: teal;
+    font-size: 1.3rem;
+    background-color: white;
+    width: 100%;
+}
+
+span {
+    background-color: teal;
+    border-radius: 50%;
+    padding: 5px 10px;
+    color: white;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+label {
+    display: block;
+}
+
+div {
+    padding: 0.5rem 3rem;
+}
+
+input {
+    padding: 0.3rem;
+}
+
+input,
+textarea {
+    width: 100%;
+}
+
+input[type=submit] {
+    width: inherit;
+    background-color: teal;
+    color: white;
+    padding: 5px 20px;
+    border: 0;
+    border-radius: 10px;
+    margin-right: 10rem;
+}
+
+div:last-of-type {
+    margin-top: 2rem;
+}
+
+input[type=radio] {
+    width: inherit;
+}
+
+label[for=terms] {
+    display: inline;
+}
